@@ -4,10 +4,9 @@ export const OdsBox = styled.div`
     width: 50vw;
     height: 50vh;
 
-    margin-top: 8%;
+    margin-top: 3%;
 
     background-color: #1c1c1c;
-    border: 3px solid #fff;
     border-radius: 25px;
 `
 
@@ -34,7 +33,7 @@ export const OdsButtonBoxTwo = styled.div`
     align-items: center;
 `
 
-export const OdsButtonOne = styled.div`
+export const OdsButtonOne = styled.button`
     width: 20%;
     height: 60%;
 
@@ -50,7 +49,7 @@ export const OdsButtonOne = styled.div`
     }
 `
 
-export const OdsButtonTwo = styled.div`
+export const OdsButtonTwo = styled.button`
     width: 20%;
     height: 60%;
 
@@ -66,7 +65,7 @@ export const OdsButtonTwo = styled.div`
     }
 `
 
-export const OdsButtonThree = styled.div`
+export const OdsButtonThree = styled.button`
     width: 20%;
     height: 60%;
 
@@ -82,7 +81,7 @@ export const OdsButtonThree = styled.div`
     }
 `
 
-export const OdsButtonFour = styled.div`
+export const OdsButtonFour = styled.button`
     width: 20%;
     height: 60%;
 
@@ -98,7 +97,7 @@ export const OdsButtonFour = styled.div`
     }
 `
 
-export const OdsButtonFive = styled.div`
+export const OdsButtonFive = styled.button`
     width: 20%;
     height: 60%;
 
@@ -114,7 +113,7 @@ export const OdsButtonFive = styled.div`
     }
 `
 
-export const OdsButtonSix = styled.div`
+export const OdsButtonSix = styled.button`
     width: 20%;
     height: 60%;
 
@@ -130,4 +129,6 @@ export const OdsButtonSix = styled.div`
     }
 `
 
-export const OdsImg = styled.img``
+export const OdsImg = styled.img`
+    width: 25%;
+`
